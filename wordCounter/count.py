@@ -1,7 +1,7 @@
 import os
 import re
 
-def count_words(catalog, word):
+def count_words(catalog: str, word: str) -> int:
     answer = 0
     word = word.lower()
     

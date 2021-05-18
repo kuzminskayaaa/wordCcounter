@@ -1,6 +1,6 @@
 import unittest
 import os
-from src import count_words
+from wordCounter import count_words
 
 
 class MyTest(unittest.TestCase):
